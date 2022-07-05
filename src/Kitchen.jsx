@@ -1,4 +1,5 @@
 import Oven from "./Oven"
+import Refrigerator from "./Refrigerator"
 import Sink from "./Sink"
 
 function Kitchen(props) {
@@ -7,6 +8,7 @@ function Kitchen(props) {
       Kitchen
       <Oven />
       <Sink />
+      <Refrigerator />
     </div>
   )
 }

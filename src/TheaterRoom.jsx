@@ -1,10 +1,11 @@
 import Bath from "./Bath"
+import PopcornStand from "./PopcornStand"
 
 function TheaterRoom(props) {
   return (
     <div>
       TheaterRoom
-      <Bath size='Half'/>
+      <PopcornStand />
     </div>
   )
 }
